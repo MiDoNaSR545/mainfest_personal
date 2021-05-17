@@ -5,7 +5,7 @@
 	<remote  name="jebiyeff"
          	fetch="https://github.com/Jabiyeff" />
     # HALS
-    <remove-project name="vendor/codeaurora/telephony" />
+    <remove-project name="vendor_codeaurora_telephony" />
     <remove-project name="android_hardware_qcom_audio" />
     <remove-project name="android_hardware_qcom_display" />
     <remove-project name="android_hardware_qcom_media" />
