@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote  name="wave"
+		fetch="https://github.com/wave-project" />
+    # HALS
+    <remove-project name="android_vendor_codeaurora_telephony" />
+    <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="wave" revision="r" clone-depth="1" />
+</manifest>
