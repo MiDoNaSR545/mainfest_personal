@@ -5,8 +5,12 @@
 
                 fetch="https://github.com/MiDoNaSR545" />
 
-        <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="MiDoNaSR545" revision="dotos" clone-depth="1" /> 
-        <project path="kernel/xiaomi/ysl" name="android_kernel_xiaomi_ysl" remote="MiDoNaSR545" revision="eleven" clone-depth="1" />
-        <project path="vendor/xiaomi/ysl" name="android_vendor_xiaomi_ysl" remote="MiDoNaSR545" revision="r11.0" clone-depth="1" />
-
+        <project path="device/samsung/gtaxllte" name="android_device_samsung_gtaxllte" remote="MiDoNaSR545" revision="los-17.1_64" clone-depth="1" /> 
+        <project path="kernel/samsung/exynos7870" name="android_kernel_samsung_exynos7870" remote="MiDoNaSR545" revision="11-m105" clone-depth="1" />
+        <project path="vendor/samsung/gtaxllte" name="android_vendor_samsung_gtaxllte" remote="MiDoNaSR545" revision="lineage-17.1" clone-depth="1" />
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="MiDoNaSR545" revision="los-18.1" clone-depth="1" /> 
+        <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="MiDoNaSR545" revision="lineage-18.1-talu" clone-depth="1" />
+        <project path="hardware/samsung_slsi/exynos7870" name="android_hardware_samsung_slsi_exynos7870" remote="MiDoNaSR545" revision="lineage-18.1" clone-depth="1" />
+        <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="MiDoNaSR545" revision="lineage-18.1-talu" clone-depth="1" />
+        <project path="hardware/samsung_slsi/openmax" name="android_hardware_samsung_slsi_openmax" remote="MiDoNaSR545" revision="lineage-18.1-talu" clone-depth="1" />
 </manifest>
