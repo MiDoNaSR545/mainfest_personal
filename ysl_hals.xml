@@ -4,9 +4,6 @@
 		fetch="https://github.com/ItsVixano" />
 
      # HALS
-    <remove-project name="android_hardware_qcom_display" />
-    <remove-project name="android_hardware_qcom_audio" />
-    <remove-project name="android_hardware_qcom_media" />
     <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf" remote="githubvix" revision="display-msm8996-s" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf" remote="githubvix" revision="audio-msm8996-s" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf" remote="githubvix" revision="media-msm8996-s" clone-depth="1" />
