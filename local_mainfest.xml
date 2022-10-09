@@ -4,13 +4,13 @@
         <remote  name="MiDoNaSR545"
 
                 fetch="https://github.com/MiDoNaSR545" />
-
-        <project path="device/samsung/gtaxllte" name="android_device_samsung_gtaxllte1" remote="MiDoNaSR545" revision="los-18.1_64" clone-depth="1" /> 
-        <project path="kernel/samsung/exynos7870" name="android_kernel_samsung_exynos7870" remote="MiDoNaSR545" revision="11-m105" clone-depth="1" />
-        <project path="vendor/samsung/gtaxllte" name="android_vendor_samsung_gtaxllte" remote="MiDoNaSR545" revision="lineage-17.1" clone-depth="1" />
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="MiDoNaSR545" revision="los-18.1" clone-depth="1" /> 
-        <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="MiDoNaSR545" revision="lineage-18.1-talu" clone-depth="1" />
-        <project path="hardware/samsung_slsi/exynos7870" name="android_hardware_samsung_slsi_exynos7870" remote="MiDoNaSR545" revision="lineage-18.1" clone-depth="1" />
-        <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="MiDoNaSR545" revision="lineage-18.1-talu" clone-depth="1" />
-        <project path="hardware/samsung_slsi/openmax" name="android_hardware_samsung_slsi_openmax" remote="MiDoNaSR545" revision="lineage-18.1-talu" clone-depth="1" />
-</manifest>
+        <remove-project name="android_hardware_samsung" />
+        <remove-project name="android_bionic" />
+        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="MiDoNaSR545" revision="lineage-19.1" clone-depth="1" />
+        <project path="bionic" name="android_bionic" remote="MiDoNaSR545" revision="lineage-20.0" clone-depth="1" />
+        <project path="device/samsung/universal8895-common" name="android_device_samsung_universal8895-common" remote="MiDoNaSR545" revision="lineage-20.0" clone-depth="1" />
+        <project path="device/samsung/dream2lte" name="android_device_samsung_dream2lte" remote="MiDoNaSR545" revision="lineage-20.0" clone-depth="1" /> 
+        <project path="kernel/samsung/universal8895" name="android_kernel_samsung_universal8895" remote="MiDoNaSR545" revision="lineage-20.0" clone-depth="1" />
+        <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="MiDoNaSR545" revision="lineage-20.0" clone-depth="1" />
+        <project path="hardware/samsung" name="android_hardware_samsung-1" remote="MiDoNaSR545" revision="AOSP-13" clone-depth="1" /> 
+        </manifest>
