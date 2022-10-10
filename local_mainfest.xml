@@ -11,5 +11,5 @@
         <project path="device/samsung/dream2lte" name="android_device_samsung_dream2lte" remote="MiDoNaSR545" revision="lineage-20.0" clone-depth="1" /> 
         <project path="kernel/samsung/universal8895" name="android_kernel_samsung_universal8895" remote="MiDoNaSR545" revision="lineage-20.0" clone-depth="1" />
         <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="MiDoNaSR545" revision="lineage-20.0" clone-depth="1" />
-        <project path="hardware/samsung" name="android_hardware_samsung-1" remote="MiDoNaSR545" revision="lineage_20.0" clone-depth="1" /> 
+        <project path="hardware/samsung" name="hardware_samsung-1" remote="MiDoNaSR545" revision="thirteen" clone-depth="1" /> 
         </manifest>
