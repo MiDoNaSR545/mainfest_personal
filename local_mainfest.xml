@@ -2,7 +2,8 @@
 <manifest>
 
         <remote  name="MiDoNaSR545"
-
+        
+        <remove-project name="RiceDroid/android_bionic" />
         <remove-project name="RiceDroid/android_vendor_rice" />
         fetch="https://github.com/MiDoNaSR545" />
         <project path="vendor/lineage" name="android_vendor_rice" remote="MiDoNaSR545" revision="thirteen" clone-depth="1" />
