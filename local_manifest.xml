@@ -4,6 +4,9 @@
         <remote  name="MiDoNaSR545"
         fetch="https://github.com/MiDoNaSR545" />
 
+
+        <remove-project name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" />
+        <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" remote="lineage" />
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy-1" remote="MiDoNaSR545" revision="lineage-20" clone-depth="1" />
         <project path="device/samsung/universal8895-common" name="android_device_samsung_universal8895-common" remote="MiDoNaSR545" revision="lineage-20.0" clone-depth="1" />
         <project path="device/samsung/dream2lte" name="android_device_samsung_dream2lte" remote="MiDoNaSR545" revision="cherish" clone-depth="1" /> 
