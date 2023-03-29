@@ -6,8 +6,9 @@
         
         <remote name="ImSurajxD"
 		fetch="https://gitlab.com/ImSurajxD" />
-        
+
 	<remove-project name="android_bionic" />
+	<remove-project name="android_frameworks_base" />
         <remove-project name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
         <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" remote="lineage" />
@@ -15,6 +16,7 @@
         <project path="device/samsung/universal8895-common" name="android_device_samsung_universal8895-common" remote="MiDoNaSR545" revision="lineage-20.0" clone-depth="1" />
         <project path="device/samsung/greatlte" name="android_device_samsung_greatlte" remote="MiDoNaSR545" revision="cherish" clone-depth="1" /> 
 	<project path="bionic" name="android_bionic-1" remote="MiDoNaSR545" revision="tiramisu" clone-depth="1" /> 
+	<project path="frameworks/base" name="android_frameworks_base" remote="MiDoNaSR545" revision="tiramisu" clone-depth="1" /> 
         <project path="kernel/samsung/universal8895" name="android_kernel_samsung_universal8895" remote="MiDoNaSR545" revision="lineage-20.0" clone-depth="1" />
         <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="MiDoNaSR545" revision="lineage-20.0" clone-depth="1" />
         <project path="hardware/samsung" name="android_hardware_samsung" remote="MiDoNaSR545" revision="lineage-20" clone-depth="1" />
